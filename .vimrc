@@ -25,13 +25,15 @@ Plug 'morhetz/gruvbox'
 call plug#end()
 
 
-colorscheme gruvbox
 set background=dark
 set noswapfile
 set number
+set termguicolors
 " always uses spaces instead of tab characters
 set expandtab
 set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set encoding=UTF-8
 set hlsearch
 set incsearch

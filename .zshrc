@@ -9,6 +9,7 @@ export ZSH="/Users/nick/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
+# ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -69,9 +70,9 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-
+plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
-
+# antigen bundle zsh-users/zsh-autosuggestions
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
